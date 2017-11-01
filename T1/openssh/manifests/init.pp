@@ -9,7 +9,7 @@ class openssh {
 	  #ssh konfiguraatio tiedostojen muokkaaminen.
 	file { '/etc/ssh/ssh_config':
 	content => template("openssh/ssh_config"),
-	  #servicen huomautus sshd_config tiedoston muuttuessa
+	  #servicen huomautus ssh_config tiedoston muuttuessa
 	notify => Service["ssh"],
 	}
 
