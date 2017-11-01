@@ -4,13 +4,13 @@
 a) Asenna jokin muu demoni kuin Apache. Raportoi, miten rakensit, selvitit ja testasit kunkin osan (esim. sudo puppet resource, puppet describe, lähteet…). Julkaise myös modulisi lähdekoodi niin, että sen voi helposti ottaa käyttöön.
 
 ## Raudan Tiedot
-````
-Laitteen nimi: Surface Book
-Prosessori: Intel(R) Core (TM) i7-6600U CP
-Näytönojain: Nvidia 2GB Muisti: 16GB
-Varastolaite: Samsung SSD 500GB
-[xubuntu-16.04.3](http://nl.archive.ubuntu.com/ubuntu-cdimage-xubuntu/releases/16.04/release/xubuntu-16.04.3-desktop-amd64.iso) virtuaalikoneessa VMware Workstation pro 14
-````
+
+* Laitteen nimi: Surface Book
+* Prosessori: Intel(R) Core (TM) i7-6600U CP
+* Näytönojain: Nvidia 2GB Muisti: 16GB
+*Varastolaite: Samsung SSD 500GB
+* [xubuntu-16.04.3](http://nl.archive.ubuntu.com/ubuntu-cdimage-xubuntu/releases/16.04/release/xubuntu-16.04.3-desktop-amd64.iso) virtuaalikoneessa VMware Workstation pro 14
+
 
 ## Puppetin assenus
 Avaa terminaali painamalla Ctrl+Alt+T ja syötä sinne seuraava komento.
