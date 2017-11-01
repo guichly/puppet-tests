@@ -89,6 +89,10 @@ Ctrl+X ja save chages? “yes” tiedoston luomisen jälkeen kopioidaan ssh konf
 
 `$ sudo cp /etc/ssh/ssh_config /etc/puppet/modules/openssh/templates/`
 
+Lopputulos pitäisi näyttää tältä.
+
+![img](https://guichlyhessen.files.wordpress.com/2017/10/screenshot_2017-10-31_09-29-25.png?w=982)
+
 ## SSH puppet suorittaminen
 
 init.pp:een class:in nimi pitää olla sama kuin hakemiston nimi tässä tapauksessa openssh.
