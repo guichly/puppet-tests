@@ -1,5 +1,5 @@
 #Alku järjestelyt ja asennukset
-#sudo apt-get update
+sudo apt-get update
 sudo apt install -y git
 sudo apt install -y tree
 sudo apt install -y puppet
