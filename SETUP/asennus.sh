@@ -5,8 +5,8 @@ sudo apt-get update && sudo apt-get -y install puppet && apt-get -y install tree
 #Projektin kloonaus 
 git clone https://github.com/guichly/puppet-tests.git
 
-#lisää 9 riviin "ordering = manifest" ja tekee uuden rivin.
-sudo sed -i "9i ordering = manifest\n" /etc/puppet/puppet.conf
+#lisää 9 riviin "ordering = manifest".
+sudo sed -i "9i ordering = manifest" /etc/puppet/puppet.conf
 
 #kopioidaan rekursiivisesti "-r" ja päällekirjoittamatta samat nimiset "-n" tiedostot /etc/ hakemistoon.
 sudo cp -rn ~/puppet-tests/puppet /etc/
