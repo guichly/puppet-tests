@@ -9,7 +9,7 @@ git clone https://github.com/guichly/puppet-tests.git
 sudo sed -i "9i ordering = manifest\n" /etc/puppet/puppet.conf
 
 #kopioidaan rekursiivisesti "-r" ja päällekirjoittamatta samat nimiset "-n" tiedostot /etc/ hakemistoon.
-sudo cp -rn ~/puppet/puppet-tests/puppet /etc/
+sudo cp -rn ~/puppet-tests/puppet /etc/
 
 #Testataan kopioidulla moduulilla "openssh".
 sudo puppet apply -e 'class {'openssh':}'
