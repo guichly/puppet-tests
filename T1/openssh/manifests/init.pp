@@ -3,7 +3,7 @@ class openssh {
 	package { ssh:
 	ensure => 'installed',
 	  #livetikussa puppet komennon suorittamista varten.
-	#allowcdrom => true,
+	allowcdrom => true,
 	}	
 
 	  #ssh konfiguraatio tiedostojen muokkaaminen.
