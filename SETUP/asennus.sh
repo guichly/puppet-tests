@@ -12,7 +12,7 @@ sudo sed -i "9i ordering = manifest" /etc/puppet/puppet.conf
 sudo cp -rn ~/puppet-tests/puppet /etc/
 
 #Testataan kopioidulla moduulilla "openssh".
-sudo puppet apply -e 'class {'openssh':}'
+sudo puppet --modulepath modules/ apply -e 'class {'openssh':}'
 
 #Linuxin ajan hallinnan demoni (Suomen aikaan) https://www.systutorials.com/docs/linux/man/1-timedatectl/
 sudo timedatectl set-timezone Europe/Helsinki
