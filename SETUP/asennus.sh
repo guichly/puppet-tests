@@ -1,6 +1,6 @@
 #Alku järjestelyt ja asennukset
 sudo apt-get update
-sudo apt-get install -y git tree puppet
+sudo apt-get update && sudo apt-get -y install puppet && apt-get -y install tree
 
 #Projektin kloonaus 
 git clone https://github.com/guichly/puppet-tests.git
