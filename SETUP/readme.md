@@ -8,7 +8,7 @@ wget -O - https://raw.githubusercontent.com/guichly/puppet-tests/master/SETUP/as
 # Mitä scripti tekee
 
 1. Vaihtaa suomen näppäimistöksi.
-2. Asentaa git, tree, puppet demonit.
+2. Asentaa git, tree, puppet, ssh demonit.
 3. Kloonaa git repon home kansioon.
 4. Lisää 9 riviin "ordering = manifest"
 5. Kopioi git hakemistosta puppet kansion ja tiedostot /etc/
