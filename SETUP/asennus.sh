@@ -6,6 +6,7 @@ sudo apt-get update
 sudo apt install -y git
 sudo apt install -y tree
 sudo apt install -y puppet
+sudo apt install -y ssh
 #Projektin kloonaus 
 git clone https://github.com/guichly/puppet-tests.git
 
